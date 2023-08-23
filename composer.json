@@ -1,14 +1,7 @@
 {
     "name": "rmobis/shopware-rector-mre",
-    "autoload": {
-        "psr-4": {
-            "Rmobis\\ShopwareRectorMre\\": "src/"
-        }
-    },
-    "require": {
-        "frosh/shopware-rector": "^0.2.2"
-    },
     "require-dev": {
+        "frosh/shopware-rector": "^0.2.2",
         "rector/rector": "^0.18"
     }
 }
