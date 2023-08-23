@@ -1,3 +1,5 @@
 <?php
 
-echo 'Hello world!';
+if (true) {
+    echo (string) 'Hello world!';
+}

@@ -1,8 +1,8 @@
 <?php
 
 use Rector\Config\RectorConfig;
-use Rector\TypeDeclaration\Rector\Property\TypedPropertyFromStrictConstructorRector;
+use Rector\DeadCode\Rector\Cast\RecastingRemovalRector;
 
 return static function (RectorConfig $rectorConfig): void {
-    $rectorConfig->rule(TypedPropertyFromStrictConstructorRector::class);
+    $rectorConfig->rule(RecastingRemovalRector::class);
 };
