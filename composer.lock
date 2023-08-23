@@ -4,62 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f0f5aabe9082752ae8eadf9f20e177c",
-    "packages": [
-        {
-            "name": "frosh/shopware-rector",
-            "version": "0.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FriendsOfShopware/shopware-rector.git",
-                "reference": "bc840d8b5d7e954a73453a5078ec491176426990"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfShopware/shopware-rector/zipball/bc840d8b5d7e954a73453a5078ec491176426990",
-                "reference": "bc840d8b5d7e954a73453a5078ec491176426990",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.1"
-            },
-            "conflict": {
-                "rector/rector": "0.17.1"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "~3.22.0",
-                "phpstan/phpstan": "~1.10.26",
-                "phpunit/phpunit": "^9.5",
-                "rector/rector": "~0.16",
-                "symfony/var-dumper": "*",
-                "symplify/easy-coding-standard": "~11.2",
-                "tracy/tracy": "^2.9"
-            },
-            "type": "rector-extension",
-            "extra": {
-                "rector": {
-                    "includes": [
-                        "config/config.php"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Frosh\\Rector\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "mit"
-            ],
-            "description": "Shopware specific Rector",
-            "support": {
-                "issues": "https://github.com/FriendsOfShopware/shopware-rector/issues",
-                "source": "https://github.com/FriendsOfShopware/shopware-rector/tree/0.2.2"
-            },
-            "time": "2023-07-20T20:03:44+00:00"
-        }
-    ],
+    "content-hash": "ed268bcd35273cba5f8b479148b1b2fd",
+    "packages": [],
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
